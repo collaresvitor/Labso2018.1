@@ -1,0 +1,16 @@
+//Conteudo LabSo
+
+Comandos no Terminal Linux (Shell)
+
+pdw - indica localização que esta na pasta
+ls - lista arquivos dentro da pasta 
+cd - ir para alguma pasta
+cd .. - voltar pasta 
+cd+enter = home
+cd -  - volta para ultima pasta visitada 
+mkdir - criar pasta 
+rmdir - remover pasta 
+which + arquivo  - localiza um determinado programa instalado 
+
+
+
