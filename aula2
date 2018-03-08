@@ -1,0 +1,14 @@
+
+head -n log.txt - mostra n primeiras linhas
+tail -n log.txt - mostra n ultimas linhas 
+less log.txt 
+
+cat > [arquivo] (cria novo arquivo)
+Exemplo: $ cat > teste.txt 
+
+cat [arquivo1] >> [arquivo2] (acrescenta arq.2 em arq.1)
+Exemplo: $ cat teste1 >> teste2 
+
+touch novo.py - cria novo arquivo vazio na pasta
+touch -l arquivo - verifica a data do arquivo
+touch -t 04221600 - muda dia e hora 
