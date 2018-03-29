@@ -1,0 +1,98 @@
+aluno@LB123UNI:~$ pwd
+/home/aluno
+aluno@LB123UNI:~$ mkdir 2018.1
+mkdir: é impossível criar o diretório “2018.1”: Arquivo existe
+aluno@LB123UNI:~$ ls
+2018.               criapasta            Loza            s
+2018.1              criapasta.sh         lsExtensao.sh   soma.sh
+abacate             cscw-aula-git-manha  meupai          string.sh
+aluno1noite1        diego.sh             minhaversao.sh  testcase.sh
+Área de Trabalho    Documentos           Modelos         teste1.sh
+augusto             Downloads            mostranome.sh   teste2.sh
+augusto.py          erro.txt             Música          teste2.sh.save
+augusto.txt         EU1                  numeros.txt     teste.sh
+aula1.txt           EU2                  olamundo.sh     teste.sh.save
+Aula1.txt           examples.desktop     online-cv       testfor.sh
+aula2.txt           Fernando             out1.txt        testwhile.sh
+aula3.txt           for.sh               out2.txt        TrabalhoAV1
+aula5.txt           Imagens              param.sh        verificarFormato.sh
+auladehoje          ip.sh                ping            Vídeos
+av2                 Jordan               pontos.txt      while2.sh
+banco-de-curriculo  LabSO                Público         while.sh
+aluno@LB123UNI:~$ cd 2018.1
+aluno@LB123UNI:~/2018.1$ mkdir aula6
+aluno@LB123UNI:~/2018.1$ cd aula6/
+aluno@LB123UNI:~/2018.1/aula6$ mkdir ex1
+aluno@LB123UNI:~/2018.1/aula6$ mkdir ex2
+aluno@LB123UNI:~/2018.1/aula6$ mdir ex3
+Can't open /dev/fd0: Arquivo ou diretório não encontrado
+Cannot initialize 'A:'
+aluno@LB123UNI:~/2018.1/aula6$ mkdir ex3
+aluno@LB123UNI:~/2018.1/aula6$ cd ex2
+aluno@LB123UNI:~/2018.1/aula6/ex2$ $touch aula6.txt aula66.txt
+aula6.txt: comando não encontrado
+aluno@LB123UNI:~/2018.1/aula6/ex2$ ls
+aluno@LB123UNI:~/2018.1/aula6/ex2$ ls
+aluno@LB123UNI:~/2018.1/aula6/ex2$ clear
+
+aluno@LB123UNI:~/2018.1/aula6/ex2$ ls
+aluno@LB123UNI:~/2018.1/aula6/ex2$ ls
+aluno@LB123UNI:~/2018.1/aula6/ex2$ mkdir ex3
+aluno@LB123UNI:~/2018.1/aula6/ex2$ cd ex3
+aluno@LB123UNI:~/2018.1/aula6/ex2/ex3$ $touch aula6.txt
+aula6.txt: comando não encontrado
+aluno@LB123UNI:~/2018.1/aula6/ex2/ex3$ $ touch aula6.txt
+$: comando não encontrado
+aluno@LB123UNI:~/2018.1/aula6/ex2/ex3$ touch aula6.txt
+aluno@LB123UNI:~/2018.1/aula6/ex2/ex3$ ls
+aula6.txt
+aluno@LB123UNI:~/2018.1/aula6/ex2/ex3$ touch aula66.txt
+aluno@LB123UNI:~/2018.1/aula6/ex2/ex3$ cd ..
+aluno@LB123UNI:~/2018.1/aula6/ex2$ cd..
+cd..: comando não encontrado
+aluno@LB123UNI:~/2018.1/aula6/ex2$ cd .. 
+aluno@LB123UNI:~/2018.1/aula6$ cd ex1
+aluno@LB123UNI:~/2018.1/aula6/ex1$ touch meuarquivo1.txt
+aluno@LB123UNI:~/2018.1/aula6/ex1$ touch meuarquivo2.txt
+aluno@LB123UNI:~/2018.1/aula6/ex1$ cd .. 
+aluno@LB123UNI:~/2018.1/aula6$ cd ex3
+aluno@LB123UNI:~/2018.1/aula6/ex3$ touch arq.txt > ^C
+aluno@LB123UNI:~/2018.1/aula6/ex3$  ls ~
+2018.               criapasta            Loza            s
+2018.1              criapasta.sh         lsExtensao.sh   soma.sh
+abacate             cscw-aula-git-manha  meupai          string.sh
+aluno1noite1        diego.sh             minhaversao.sh  testcase.sh
+Área de Trabalho    Documentos           Modelos         teste1.sh
+augusto             Downloads            mostranome.sh   teste2.sh
+augusto.py          erro.txt             Música          teste2.sh.save
+augusto.txt         EU1                  numeros.txt     teste.sh
+aula1.txt           EU2                  olamundo.sh     teste.sh.save
+Aula1.txt           examples.desktop     online-cv       testfor.sh
+aula2.txt           Fernando             out1.txt        testwhile.sh
+aula3.txt           for.sh               out2.txt        TrabalhoAV1
+aula5.txt           Imagens              param.sh        verificarFormato.sh
+auladehoje          ip.sh                ping            Vídeos
+av2                 Jordan               pontos.txt      while2.sh
+banco-de-curriculo  LabSO                Público         while.sh
+aluno@LB123UNI:~/2018.1/aula6/ex3$ ls ~ > touch arq.txt
+ls: não é possível acessar arq.txt: Arquivo ou diretório não encontrado
+aluno@LB123UNI:~/2018.1/aula6/ex3$ touch arq.txt
+aluno@LB123UNI:~/2018.1/aula6/ex3$ ls ~ > arq.txt
+aluno@LB123UNI:~/2018.1/aula6/ex3$ cp ../ex2/ex3/* .
+aluno@LB123UNI:~/2018.1/aula6/ex3$ ls
+arq.txt  aula66.txt  aula6.txt
+aluno@LB123UNI:~/2018.1/aula6/ex3$ rv aula*.txt classe*.txt
+rv: comando não encontrado
+aluno@LB123UNI:~/2018.1/aula6/ex3$ mv aula*txt classe*.txt
+mv: o alvo “classe*.txt” não é um diretório
+aluno@LB123UNI:~/2018.1/aula6/ex3$ mv aula6.txt classe6.txt
+aluno@LB123UNI:~/2018.1/aula6/ex3$ ls
+arq.txt  aula66.txt  classe6.txt
+aluno@LB123UNI:~/2018.1/aula6/ex3$ cd 
+aluno@LB123UNI:~$ find . -type f -name meuarquivo2.txt
+./2018.1/aula6/ex1/meuarquivo2.txt
+aluno@LB123UNI:~$ find . -type d -name ex3
+./2018.1/aula6/ex3
+./2018.1/aula6/ex2/ex3
+aluno@LB123UNI:~$ 
+
