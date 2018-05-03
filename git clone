@@ -1,0 +1,14 @@
+#!/bin/bash
+#gitclone .....
+#cd repositorio 
+
+git config --global user.name "collaresvitor"
+git config --global user.email vitor.castro@soulasalle.com.br
+
+git add *
+
+git commit -m "criado via script" 
+
+git push 
+
+
